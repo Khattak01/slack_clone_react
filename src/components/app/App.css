@@ -1,0 +1,24 @@
+body{
+    --slack-color:#3f0f40;
+    overflow: hidden;
+}
+.app {
+    /* width: 90%;
+    max-width: 1400px;
+    margin: auto auto; */
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
+}
+.app__body{
+    display: flex;
+    height: 100vh;
+}
+.heading__welcome{
+    font-size: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-weight: 700;
+}

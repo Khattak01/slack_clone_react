@@ -1,0 +1,21 @@
+.channel-input{
+    border-radius: 20px;
+}
+.channel-input > form{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.channel-input > form > input{
+    position: fixed;
+    bottom: 30px;
+    width: 70%;
+    border: 1px solid gray;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 20px;
+}
+.channel-input > form > button{
+    display: none !important;
+}

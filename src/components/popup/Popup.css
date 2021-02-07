@@ -1,0 +1,82 @@
+.popup{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, .33);
+    display: grid;
+    place-items: center;
+    color: #333333;
+}
+.popup__container{
+    position: relative;
+    width: fit-content;
+    min-height: 60vh;
+    padding: 20px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.close-btn{
+    color: #333333 !important;
+    font-weight: 900;
+    border-radius: 0 !important;
+    background-color: rgb(238, 89, 89) !important;
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+    padding: 5px 10px !important;
+}
+.popup__icon{
+    font-size: 22px !important;
+}
+.popup__line{
+    border: none;
+    border-bottom: 1px solid #333333;
+    width: 90%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.popup__features,.popup__project-info{
+    width: 60%;
+    margin: auto auto;
+}
+.popup__features-list,.popup__project-info-list{
+    list-style: none;
+    margin: 10px;
+}
+.popup__features-list li,.popup__project-info-list li{
+    line-height: 1.8;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+}
+.popup__features-list li::after,.popup__project-info-list li::after{
+    /* transition: all .3s ease-out; */
+    content: "";
+    width: 15%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color:  #421f44;
+    height: 2px;
+}
+.popup__features-list li:hover::after,.popup__project-info-list li:hover::after{
+    right: 0;
+}
+.popup__personal-info > h2,.popup__personal-info> h3{
+    text-align: center;
+    letter-spacing: 1.1px;
+    line-height: 1.4;
+}
+.popup__personal-info> h3{
+    letter-spacing: 1.1px;
+}
+.popup__name{
+    font-weight: 700;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-size: 30px;
+}

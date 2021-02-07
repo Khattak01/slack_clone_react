@@ -1,0 +1,49 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--slack-color);
+    color: #ffffff;
+    padding: 15px 20px;
+}
+.header__left{
+    flex: .3;
+    display: flex;
+    align-items: center;
+}
+.header__left > .MuiSvgIcon-root{
+    margin-left: auto;
+    margin-right: 40px;
+}
+.header__search{
+    flex: .4;
+    display: flex;
+    align-items: center;
+    background-color: #421f44;
+    padding: 0 10px;
+    color: gray;
+    border: 1px gray solid;
+    border-radius: 6px;
+}
+.header__search > input{
+    background-color: transparent;
+    border: none;
+    text-align: center;
+}
+.header__search-input{
+    width: 100% !important;
+    color: #ffffff !important;
+    padding: 15px !important;
+    outline: none;
+    font-size: 17px;
+    margin-left: -13px !important;
+}
+.header__right{
+    flex: .3;
+    display: flex;
+    align-items: flex-end;
+}
+.header__right > .MuiSvgIcon-root{
+    margin-left: auto;
+    margin-right: 10px;
+}
