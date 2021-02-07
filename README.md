@@ -1,3 +1,7 @@
+live link:(not responsive)
+
+https://slack-clone-react-48cb5.web.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
